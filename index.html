@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=swap_horiz" />
+    <link rel="stylesheet" href="style.css">
+    <title>Currency convertor.</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="amount-box">
+            <h1 class="heading">Amount</h1>
+            <input type="number" id="amount" placeholder="Add amount here..">
+        </div>
+        <div class="currency-dropdown">
+            <div class="fromCurrency">
+                <h1 class="heading">From</h1>
+            </div>
+            
+            <span class="material-symbols-outlined" id="exchange-logo">
+                swap_horiz
+            </span>
+            <div class="toCurrency">
+                <h1 class="heading">To</h1>
+            </div>
+        </div>
+        <button type="button" id="submit-button" onclick="currencyGetter()">Convert</button>
+        <p id="text" style="text-align: center;">Converted amount is display here</p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
