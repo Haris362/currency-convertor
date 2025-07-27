@@ -93,6 +93,6 @@ async function currencyGetter(){
             convertedAmount.innerHTML =   `${amount + " " + data.base} = ${Math.round(data["result"][`${selectedTo_Value}`]) + " " + selectedTo_Value}`
             
           } catch (error) {
-              // alert("Please check the option.")
+              console.log("ERROR");
     }
 }

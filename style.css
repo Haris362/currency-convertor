@@ -79,7 +79,6 @@ button:hover {
     margin-top: 1rem;
     font-weight: 500;
     color: #ff5930;
-    text-shadow:0px 0px 35px yellow;
 }
 select{
     width: 110px;
